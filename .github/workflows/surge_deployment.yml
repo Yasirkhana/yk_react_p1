@@ -25,6 +25,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build yk_bootcamp_p1.surge.su ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build yk_bootcamp_p1.surge.sh ${{ secrets.SURGE_TOKEN }}
 
           
