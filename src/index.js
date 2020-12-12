@@ -4,8 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
-  <div>HELLO WORLD </div>,
+  <React.StrictMode>
+  <App/>
+  </React.StrictMode>,
+
+
   document.getElementById('root')
 );
 
